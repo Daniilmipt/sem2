@@ -1,16 +1,12 @@
 #include <iostream>
 
-int fact(int i) {
-    if (i==1) return 1;
-    else return fact(i-1)*i;
-};
-
 
 int main() {
-    int k;
+    int s = 1;
     int n;
     std:: cin >> n;
-    k=fact(n);
-    std:: cout << k;
-    return 0;
+    for (int i = 0; i < n; ++i){
+        s = s * (i + 1);
+    }
+    std::cout << s;
 }
