@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1614242592 source:c:\git-sdk-64\2_sem_infa\class_work_3\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<algorithm>
+
